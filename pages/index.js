@@ -46,7 +46,7 @@ const callGenerateEndpoint = async () => {
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-        <textarea className="prompt-box" placeholder="Red leather boots by Gucci" value={userInput} onChange={onUserChangedText}/>;
+        <textarea className="prompt-box" placeholder="Red leather boots by Gucci" value={userInput} onChange={onUserChangedText}/>
         </div>
         <div className="prompt-buttons">
   <a
